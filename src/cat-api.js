@@ -14,7 +14,7 @@ function fetchBreeds() {
     .then(({ data }) => data);
 }
 function fetchCatByBreed(breedId) {
-  const END_POINT = 'images/';
+  const END_POINT = 'images/search';
 
   const catParams = {
     api_key: API_KEY,
