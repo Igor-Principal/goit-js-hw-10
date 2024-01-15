@@ -16,6 +16,7 @@ refs.contCatInfo.classList.add('hidden');
 refs.select.addEventListener('change', selectBreed);
 
 let selectArr = [];
+
 fetchBreeds()
   .then(data => {
     data.forEach(element => {
